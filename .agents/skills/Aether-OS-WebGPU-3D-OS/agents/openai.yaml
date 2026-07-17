@@ -1,0 +1,6 @@
+interface:
+  display_name: "Aether OS WebGPU 3D OS"
+  short_description: "Repo-specific patterns and workflows for Aether-OS-WebGPU-3D-OS"
+  default_prompt: "Use the Aether-OS-WebGPU-3D-OS repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
