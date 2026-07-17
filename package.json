@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build && cp -r public dist/ && mv dist/public/index.html dist/index.html && rm -rf dist/public/index.html && mv dist/index.html dist/app.html && cp index.html dist/index.html && cp index.html dist/404.html",
+    "build": "tsc && vite build && cp -r public dist/ && mv dist/public/index.html dist/index.html && rm -rf dist/public/index.html && mv dist/index.html dist/app.html && cp index.html dist/index.html && cp app.html dist/app.html && cp index.html dist/404.html",
     "preview": "vite preview"
   },
   "dependencies": {
