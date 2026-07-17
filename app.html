@@ -371,45 +371,6 @@
       margin-top: 4px;
     }
 
-    /* Loading State */
-    .loading-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: var(--bg-primary);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-      transition: opacity 0.5s;
-    }
-
-    .loading-overlay.hidden {
-      opacity: 0;
-      pointer-events: none;
-    }
-
-    .loader {
-      width: 60px;
-      height: 60px;
-      border: 3px solid rgba(0, 245, 255, 0.1);
-      border-top-color: var(--accent-cyan);
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
-    .loading-text {
-      margin-top: 20px;
-      color: var(--text-secondary);
-    }
-
     /* Responsive */
     @media (max-width: 768px) {
       .search-container { display: none; }
@@ -426,12 +387,6 @@
 </head>
 <body>
   <div id="app">
-    <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loading">
-      <div class="loader"></div>
-      <div class="loading-text">Initializing Aether OS...</div>
-    </div>
-
     <!-- Top Bar -->
     <header class="top-bar">
       <div class="logo">
@@ -972,10 +927,6 @@
 
     // Initialize
     window.addEventListener('DOMContentLoaded', () => {
-      setTimeout(() => {
-        document.getElementById('loading').classList.add('hidden');
-      }, 1500);
-
       const container = document.getElementById('canvas-container');
       spatialScene = new SpatialScene(container);
       aiOrchestrator = new AIOrchestrator();
