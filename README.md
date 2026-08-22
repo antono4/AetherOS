@@ -1,34 +1,75 @@
-# aether-os-spatial-canvas
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
+<h1 align="center">Aether OS - Spatial Operating System 👋</h1>
 
+<p align="center">
+  <strong>Aether OS - Spatial Operating System</strong>
+</p>
 
-## 📋 Overview
-
-This repository contains **92 files** and is built with the following technologies:
-
-Node.js, HTML, JavaScript, Docker
-
-## 🚀 Quick Start
-
-```bash
-npm install
-npm run dev
-npm run build
-```
-
-## ✨ Features
-
-- 🐳 Docker support
-- 🔧 Environment config included
-- 📝 Auto-generated documentation
-
-## 🛠️ Technologies
-
-Node.js, HTML, JavaScript, Docker
-
-## 📄 License
-
-MIT License
+<p align="center">
+  <a href="https://github.com/antono4/AetherOS"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/AetherOS-blue?logo=github"></a>
+  <a href="https://antono4.github.io/AetherOS/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-92-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-22 08:00:23 WIB-lightgrey">
+</p>
 
 ---
-*Last updated: 2026-08-22 07:44:31 WIB*
+
+## 📖 Tentang
+
+Repository **`AetherOS`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/AetherOS/`](https://antono4.github.io/AetherOS/).
+
+## 🗂️ Struktur Proyek
+
+```
+AetherOS/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── public/              # Aether OS | The Future of Spatial Computing  ->  https://antono4.github.io/AetherOS/public/
+```
+
+## 🌐 Sub-Proyek / Demo
+
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
+
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`public`](./public) | [https://antono4.github.io/AetherOS/public/](https://antono4.github.io/AetherOS/public/) | Aether OS | The Future of Spatial Computing |
+
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `HTML`
+- `CSS`
+- `JavaScript`
+
+> Total **92 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/AetherOS/](https://antono4.github.io/AetherOS/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-22 08:00:23 WIB** oleh GitHub Actions .</sub>
