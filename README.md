@@ -1,75 +1,34 @@
-<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
+# aether-os-spatial-canvas
 
-<h1 align="center">Aether OS - Spatial Operating System 👋</h1>
 
-<p align="center">
-  <strong>Aether OS - Spatial Operating System</strong>
-</p>
 
-<p align="center">
-  <a href="https://github.com/antono4/AetherOS"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/AetherOS-blue?logo=github"></a>
-  <a href="https://antono4.github.io/AetherOS/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-92-informational">
-  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-06 02:36:22 WIB-lightgrey">
-</p>
+## 📋 Overview
 
----
+This repository contains **92 files** and is built with the following technologies:
 
-## 📖 Tentang
+Node.js, HTML, JavaScript, Docker
 
-Repository **`AetherOS`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/AetherOS/`](https://antono4.github.io/AetherOS/).
-
-## 🗂️ Struktur Proyek
-
-```
-AetherOS/
-├── index.html          # Halaman utama (landing / portofolio)
-├── assets/             # Aset statis (css, js, img, vendor)
-├── forms/               # Form handler (PHP)
-└── public/              # Aether OS | The Future of Spatial Computing  ->  https://antono4.github.io/AetherOS/public/
-```
-
-## 🌐 Sub-Proyek / Demo
-
-Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
-
-| Folder | Demo Live | Keterangan |
-|--------|-----------|-----------|
-| [`public`](./public) | [https://antono4.github.io/AetherOS/public/](https://antono4.github.io/AetherOS/public/) | Aether OS | The Future of Spatial Computing |
-
-## 🛠️ Teknologi
-
-Berdasarkan isi repository, proyek ini menggunakan:
-
-- `HTML`
-- `CSS`
-- `JavaScript`
-
-> Total **92 file** terdeteksi di repository.
-
-## 🚀 Menjalankan Secara Lokal
-
-Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+## 🚀 Quick Start
 
 ```bash
-# Tanpa dependency
-python3 -m http.server 8000
-# lalu buka http://localhost:8000
-
-# atau dengan PHP (untuk form handler di forms/)
-php -S localhost:8000
+npm install
+npm run dev
+npm run build
 ```
 
-## 📬 Kontak
+## ✨ Features
 
-- GitHub: [antono4](https://github.com/antono4)
-- Situs: [https://antono4.github.io/AetherOS/](https://antono4.github.io/AetherOS/)
+- 🐳 Docker support
+- 🔧 Environment config included
+- 📝 Auto-generated documentation
 
-## 📄 Lisensi
+## 🛠️ Technologies
 
-Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+Node.js, HTML, JavaScript, Docker
+
+## 📄 License
+
+MIT License
 
 ---
-
-<sub>README ini di-generate otomatis pada **2026-09-06 02:36:22 WIB** oleh GitHub Actions .</sub>
+*Last updated: 2026-09-06 03:37:24 WIB*
