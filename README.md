@@ -1,135 +1,75 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">Aether OS 👋</h1>
+<h1 align="center">Aether OS - Spatial Operating System 👋</h1>
+
+<p align="center">
+  <strong>Aether OS - Spatial Operating System</strong>
+</p>
 
 <p align="center">
   <a href="https://github.com/antono4/AetherOS"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/AetherOS-blue?logo=github"></a>
   <a href="https://antono4.github.io/AetherOS/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-87-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/AetherOS">
+  <img alt="Files" src="https://img.shields.io/badge/Files-90-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:42:48 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`AetherOS`** adalah proyek Node.js yang dibangun dengan HTML, CSS, JavaScript.
-Situs ini diterbitkan melalui **GitHub Pages** dan dapat diakses di [`https://antono4.github.io/AetherOS/`](https://antono4.github.io/AetherOS/).
+Repository **`AetherOS`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/AetherOS/`](https://antono4.github.io/AetherOS/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 AetherOS/
-.agents/
-  skills/
-.claude/
-  ecc-tools.json
-  homunculus/
-  identity.json
-  skills/
-.codex/
-  AGENTS.md
-  agents/
-  config.toml
-.env.example
-.eslintrc.cjs
-.github/
-  workflows/
-.gitignore
-.prettierrc
-CHANGELOG.md
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-Dockerfile
-INSTALL.md
-LICENSE
-SECURITY.md
-docker-compose.yml
-docs/
-  API.md
-  ARCHITECTURE.md
-  QUICKSTART.md
-  banner.svg
-index.html
-nginx.conf
-package-lock.json
-package.json
-public/
-  CHANGELOG.html
-  CONTRIBUTING.html
-  INSTALL.html
-  LICENSE.html
-  SECURITY.html
-  demo.html
-  docs/
-  favicon.svg
-  index.html
-  sw.js
-src/
-src-tauri/
-  Cargo.toml
-  build.rs
-  src/
-  tauri.conf.json
-  agents/
-  ai/
-  collaboration/
-  core/
-  ecosystem/
-  enterprise/
-  intelligence/
-  main.ts
-  memory/
-  mobile/
-  performance/
-  plugins/
-  renderer/
-  shader/
-  storage/
-  styles/
-  vite-env.d.ts
-  voice/
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── public/              # Aether OS | The Future of Spatial Computing  ->  https://antono4.github.io/AetherOS/public/
 ```
 
 ## 🌐 Sub-Proyek / Demo
 
-Repository ini juga memuat sub-proyek (masing-masing punya `index.html` tersendiri):
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
 
-| Folder | Keterangan |
-|--------|-----------|
-| [`public`](./public) | Aether OS | The Future of Spatial Computing |
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`public`](./public) | [https://antono4.github.io/AetherOS/public/](https://antono4.github.io/AetherOS/public/) | Aether OS | The Future of Spatial Computing |
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `CSS`
 - `JavaScript`
 
-> Total **87 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **90 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Node.js:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-npm install
-npm run dev
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/AetherOS/](https://antono4.github.io/AetherOS/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:42:48 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
