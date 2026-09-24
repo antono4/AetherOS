@@ -1,25 +1,3 @@
-# AetherOS
-
-**The Future of Operating System Interfaces.**
-
-AetherOS is a next-generation operating system conceptualization designed for peak efficiency and futuristic user experience. Engineered with a focus on low-level optimization and high-end aesthetics, AetherOS bridges the gap between raw system power and intuitive human-computer interaction.
-
-### 🚀 Key Highlights
-- Futuristic UX/UI Design
-- System-Level Performance Optimization
-- Innovative Interaction Models
-
-# AetherOS
-
-**The Future of Operating System Interfaces.**
-
-AetherOS is a next-generation operating system conceptualization designed for peak efficiency and futuristic user experience. Engineered with a focus on low-level optimization and high-end aesthetics, AetherOS bridges the gap between raw system power and intuitive human-computer interaction.
-
-### 🚀 Key Highlights
-- Futuristic UX/UI Design
-- System-Level Performance Optimization
-- Innovative Interaction Models
-
 <!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
 <!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
@@ -33,7 +11,7 @@ AetherOS is a next-generation operating system conceptualization designed for pe
   <a href="https://github.com/antono4/AetherOS"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/AetherOS-blue?logo=github"></a>
   <a href="https://antono4.github.io/AetherOS/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
   <img alt="Files" src="https://img.shields.io/badge/Files-90-informational">
-  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-24 07:52:38 WIB-lightgrey">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-24 13:07:08 WIB-lightgrey">
 </p>
 
 ---
@@ -94,4 +72,4 @@ Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis pada **2026-09-24 07:52:38 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-24 13:07:08 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
