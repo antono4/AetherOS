@@ -10,8 +10,8 @@
 <p align="center">
   <a href="https://github.com/antono4/AetherOS"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/AetherOS-blue?logo=github"></a>
   <a href="https://antono4.github.io/AetherOS/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-90-informational">
-  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-29 04:54:14 WIB-lightgrey">
+  <img alt="Files" src="https://img.shields.io/badge/Files-93-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-29 10:15:34 WIB-lightgrey">
 </p>
 
 ---
@@ -46,7 +46,7 @@ Berdasarkan isi repository, proyek ini menggunakan:
 - `CSS`
 - `JavaScript`
 
-> Total **90 file** terdeteksi di repository.
+> Total **93 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
@@ -72,4 +72,4 @@ Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis pada **2026-09-29 04:54:14 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-29 10:15:34 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
